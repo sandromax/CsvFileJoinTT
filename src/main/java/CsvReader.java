@@ -4,7 +4,7 @@ import java.util.List;
 
 public class CsvReader {
 
-    public List<String[]> read(String path) throws IOException {
+    public static List<String[]> read(String path) throws IOException {
 
         File csvFile = new File(path);
         List<String[]> lines = new ArrayList<>();
