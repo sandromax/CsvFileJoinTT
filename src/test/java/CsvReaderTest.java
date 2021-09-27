@@ -13,9 +13,4 @@ public class CsvReaderTest {
 
     }
 
-    @Test
-    public void checkMessage() {
-        Throwable exception = assertThrows(IOException.class, () -> CsvReader.read("noname.csv"));
-        assertEquals("noname.csv (No such file or directory)", exception.getMessage());
-    }
 }
