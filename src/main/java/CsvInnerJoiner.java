@@ -18,7 +18,7 @@ public class CsvInnerJoiner {
 
     }
 
-    public static List<String[]> hashJoin (List<String[]> left, List<String[]> right) {
+    public static List<String[]> hashJoin(List<String[]> left, List<String[]> right) {
 
         Map<String, String> rightAsMap = new HashMap<>();
 
@@ -35,11 +35,5 @@ public class CsvInnerJoiner {
 
     }
 
-    public List<String[]> mergeJoin (List<String[]> left, List<String[]> right) {
-        
 
-        return left;
-    }
-
-
-    }
+}
